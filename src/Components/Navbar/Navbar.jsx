@@ -3,7 +3,15 @@ import './navbar.css'
 
 const Navbar = () => {
     return (
-        <div>Navbar</div>
+        <section className="navBarSection">
+            <header className="header flex">
+                <div className="logoDiv">
+                   <a href="#" className="logo flex">
+                     <h1>Voyage.</h1>
+                   </a>
+                </div>
+            </header>
+        <section/>
     )
 }
 
