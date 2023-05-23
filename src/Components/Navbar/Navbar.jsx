@@ -1,18 +1,21 @@
-import React from "react";
+import React from 'react';
 import './navbar.css'
 
 const Navbar = () => {
     return (
-        <section className="navBarSection">
+        <section className='navBarSection'>
             <header className="header flex">
+
                 <div className="logoDiv">
                    <a href="#" className="logo flex">
-                     <h1>Voyage.</h1>
+                     <h1><MdOutlineTravelExplore
+                     className="icon"/> Voyage.</h1>
                    </a>
                 </div>
+                
             </header>
         <section/>
     )
-}
 
+}   
 export default Navbar
