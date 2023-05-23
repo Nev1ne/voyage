@@ -13,7 +13,25 @@ const Navbar = () => {
                      className="icon"/> Voyage.</h1>
                    </a>
                 </div>
-                
+                <div className="navBar">
+                    <ul className="navLists-flex">
+                        <li className="navItem">
+                            <a href="#" className="navlink">Home</a>
+                        </li>
+                        <li className="navItem">
+                            <a href="#" className="navlink">Home</a>
+                        </li>
+                        <li className="navItem">
+                            <a href="#" className="navlink">Home</a>
+                        </li>
+                        <li className="navItem">
+                            <a href="#" className="navlink">Home</a>
+                        </li>
+                        <li className="navItem">
+                            <a href="#" className="navlink">Home</a>
+                        </li>
+                    </ul>
+                </div>
 
             </header>
         <section/>
