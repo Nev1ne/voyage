@@ -1,5 +1,6 @@
 import React from 'react';
 import './navbar.css'
+import {MdOutlineTravelExplore} from 'react-icons/md'
 
 const Navbar = () => {
     return (
@@ -13,6 +14,7 @@ const Navbar = () => {
                    </a>
                 </div>
                 
+
             </header>
         <section/>
     )
