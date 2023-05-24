@@ -1,9 +1,12 @@
-import React from "react";
+import React from 'react';
 import './home.css'
 
 const Home = () => {
     return (
-        <div>home</div>
+        <section className='home'>
+            <div className="overlay"></div>
+            <video src=""></video>
+        </section>
     )
 }
 
