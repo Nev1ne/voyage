@@ -65,5 +65,20 @@
                 }
             }
         }
+
+        .activeNavbar{
+           top: 7rem;
+        }
+    
     }
+
+    .toggleNavbar{
+        .icon{
+            font-size: 25px;
+            color: var(--PrimaryColor);
+        }
+        &:hover.icon
+    }
+
+
   }
